@@ -20,6 +20,8 @@ number_to_word = {
 
 amount = input('Enter a dollar amount less than 1000.00: ')
 dollars, cents = amount.split('.')
+
+# Good, but ewither prompt for cents or error check -2
 dollars = int(dollars)
 cents = int(cents)
 amount_in_words = []
